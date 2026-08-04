@@ -11,7 +11,7 @@ site_name: "Oluwaseun - Geospatial Portfolio"
 site_description: "Portfolio of Oluwaseun Oyemakinde — GIS, Remote Sensing, and Spatial Data Science"
 site_author: "Oluwaseun Oyemakinde"
 # After your site is live, uncomment and set this to your actual GitHub Pages URL:
-#site_url: "https://your-username.github.io/your-repo-name"
+#site_url: "https://seunoye.github.io/oluwaseun.oyemakinde.github.io/"
 
 theme:
   name: material
@@ -59,7 +59,7 @@ markdown_extensions:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
-copyright: "Copyright &copy; OLUWASEUN OYEMAKINDE"
+copyright: "Copyright &copy; Oluwaseun Oyemakinde 2024. All rights reserved."
 
 extra:
   social:

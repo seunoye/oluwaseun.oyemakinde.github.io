@@ -19,10 +19,10 @@ CHECKLIST FOR THIS PAGE:
 
 
 <div class="hero">
-  <img src="assets/images/profile.png" alt="[YOUR NAME]" class="profile-photo">
-  <h1>[YOUR NAME]</h1>
-  <p><strong>[YOUR JOB TITLE]</strong></p>
-  <p><em>[YOUR TAGLINE — e.g., Turning spatial data into insights | GIS | Remote Sensing | Python]</em></p>
+  <img src="assets/images/profile1.jpeg" alt="Oluwaseun Oyemakinde" class="profile-photo">
+  <h1>OLUWASEUN OYEMAKINDE</h1>
+  <p><strong>GIS Analyst | Remote Sensing Specialist | Hydrographic Data Processor</strong></p>
+  <p><em>From offshore survey data to spatial intelligence | GIS | Remote Sensing | Hydrographic Data | Python</em></p>
 </div>
 
 ---
@@ -32,20 +32,16 @@ CHECKLIST FOR THIS PAGE:
 <div class="about-section" markdown>
 <div class="about-text" markdown>
 
-[Replace this paragraph with your own bio. Write 3–4 sentences covering: your background and
-what you specialize in, the kinds of problems you work on, the tools and methods you use,
-and what you are currently looking for. Example below:]
+I am a geospatial analyst specialising in GIS, remote sensing, and hydrographic data processing, with experience transforming complex spatial datasets into actionable insights. My background combines offshore survey operations, geospatial analysis, and operational data management, supported by an MSc in Geographic Information Systems from the University of Aberdeen.
 
-I am a geospatial data scientist with a background in remote sensing and machine learning.
-I work on extracting actionable insights from satellite imagery and large spatial datasets
-using Python, Google Earth Engine, and open-source GIS tools. I am passionate about applying
-GeoAI techniques to real-world challenges in land use mapping, climate monitoring, and urban
-planning. I am currently seeking opportunities in [YOUR TARGET ROLE] in [YOUR TARGET LOCATION].
+I work with ArcGIS Pro, QGIS, Python, SQL, PostGIS, and remote sensing platforms to analyse, visualise, and communicate spatial information. My experience processing multibeam sonar, positioning data, satellite imagery, and environmental datasets has developed a strong foundation in data quality, spatial analysis, and geospatial problem-solving.
+
+Through this portfolio, I showcase projects involving GIS analysis, remote sensing, spatial databases, and data-driven decision support. I am passionate about using geospatial technology to solve real-world challenges across environmental monitoring, infrastructure, marine operations, and public sector planning.
 
 </div>
 
 <div class="about-image">
-  <img src="assets/images/about.png" alt="About">
+  <img src="assets/images/About Me.jpeg" alt="About">
 </div>
 
 </div>
@@ -53,7 +49,7 @@ planning. I am currently seeking opportunities in [YOUR TARGET ROLE] in [YOUR TA
 ---
 
 [View My Projects :material-arrow-right:](projects/index.md){ .md-button .md-button--primary }
-[Download CV :material-download:](assets/[YOUR-NAME]-CV.pdf){ .md-button }
+[Download CV :material-download:](assets/Oluwaseun-CV.pdf){ .md-button }
 
 
 ---
@@ -118,5 +114,5 @@ planning. I am currently seeking opportunities in [YOUR TARGET ROLE] in [YOUR TA
 
 ## Connect
 
-[GitHub](https://github.com/[YOUR-GITHUB-USERNAME]){ .md-button }
-[LinkedIn](https://linkedin.com/in/[YOUR-LINKEDIN-USERNAME]){ .md-button }
+[GitHub](https://github.com/seunoye/){ .md-button }
+[LinkedIn](https://linkedin.com/in/oluwaseunoyemakinde/){ .md-button }

@@ -20,7 +20,7 @@ CHECKLIST FOR THIS PAGE:
 
 <div class="hero">
   <img src="assets/images/profile1.jpeg" alt="Oluwaseun Oyemakinde" class="profile-photo">
-  <h1>OLUWASEUN OYEMAKINDE</h1>
+  <h1>Oluwaseun Oyemakinde</h1>
   <p><strong>GIS Analyst | Remote Sensing Specialist | Hydrographic Data Processor</strong></p>
   <p><em>From offshore survey data to spatial intelligence | GIS | Remote Sensing | Hydrographic Data | Python</em></p>
 </div>
@@ -63,9 +63,9 @@ Through this portfolio, I showcase projects involving GIS analysis, remote sensi
     ---
 
     - QGIS, ArcGIS Pro, Google Earth Engine
-    - GDAL / OGR, GRASS GIS
+    - GDAL / OGR
     - Multispectral and SAR image analysis
-    - Cloud Native Geospatial (COG, STAC, Zarr)
+    
 
 -   :material-code-braces:{ .lg .middle } **Programming**
 
@@ -80,9 +80,7 @@ Through this portfolio, I showcase projects involving GIS analysis, remote sensi
 
     ---
 
-    - Supervised classification — Random Forest, XGBoost
-    - Deep learning for image segmentation — U-Net, SAM
-    - scikit-learn, PyTorch, TensorFlow
+    - Supervised classification — Random Forest
     - Object detection in satellite imagery
 
 -   :material-earth:{ .lg .middle } **Web Mapping & Data**
@@ -100,13 +98,13 @@ Through this portfolio, I showcase projects involving GIS analysis, remote sensi
 
     - PostgreSQL + PostGIS
     - Cloud storage: AWS S3, Google Cloud Storage
-    - Data formats: GeoJSON, GeoTIFF, NetCDF, Zarr, GeoParquet
+    - Data formats: GeoJSON, GeoTIFF, NetCDF, GeoParquet
 
 -   :material-airplane:{ .lg .middle } **Drone / UAV Data Processing**
 
     - Mission planning and flight operations
-    - Photogrammetry: Agisoft Metashape, OpenDroneMap
-    - Point cloud processing: CloudCompare, PDAL
+    - Photogrammetry: Agisoft Metashape, OpenDroneMap, Pix4D Mapper
+    - Point cloud processing: PDAL
 </div>
 
 

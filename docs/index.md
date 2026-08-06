@@ -94,11 +94,12 @@ Through this portfolio, I showcase projects involving GIS analysis, remote sensi
 
 - :material-airplane:{ .lg .middle } **Drone / UAV Data Processing**
 
-      - Mission planning and flight operations
-      - Photogrammetry: Agisoft Metashape, OpenDroneMap, Pix4D Mapper
-      - Point cloud processing: PDAL
+  ***
+  - Mission planning and flight operations
+  - Photogrammetry: Agisoft Metashape, OpenDroneMap, Pix4D Mapper
+  - Point cloud processing: PDAL
 
-  </div>
+</div>
 
 ---
 

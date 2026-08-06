@@ -54,47 +54,35 @@ Through this portfolio, I showcase projects involving GIS analysis, remote sensi
 
 ## Skills
 
-<div class="grid cards" markdown>
+<div class="grid cards" markdown="1">
 
 - :material-layers:{ .lg .middle } **GIS & Remote Sensing**
-
-  ***
   - QGIS, ArcGIS Pro, Google Earth Engine
   - GDAL / OGR
   - Multispectral and SAR image analysis
 
 - :material-code-braces:{ .lg .middle } **Programming**
-
-  ***
   - Python — GeoPandas, NumPy, Pandas, Matplotlib
   - R — sf, terra, ggplot2
   - JavaScript — Leaflet, MapLibre GL
   - SQL, PostgreSQL + PostGIS
 
 - :material-star-four-points:{ .lg .middle } **Machine Learning & GeoAI**
-
-  ***
   - Supervised classification — Random Forest
   - Object detection in satellite imagery
 
 - :material-earth:{ .lg .middle } **Web Mapping & Data**
-
-  ***
   - Leaflet.js, Folium, MapLibre GL JS
   - Cloud storage — AWS S3, Google Cloud Storage
   - Data formats — GeoTIFF, GeoParquet, NetCDF
   - Streamlit for data-driven web apps
 
 - :material-database:{ .lg .middle } **Data & Cloud**
-
-  ***
   - PostgreSQL + PostGIS
   - Cloud storage: AWS S3, Google Cloud Storage
   - Data formats: GeoJSON, GeoTIFF, NetCDF, GeoParquet
 
 - :material-airplane:{ .lg .middle } **Drone / UAV Data Processing**
-
-  ***
   - Mission planning and flight operations
   - Photogrammetry: Agisoft Metashape, OpenDroneMap, Pix4D Mapper
   - Point cloud processing: PDAL

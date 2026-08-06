@@ -60,16 +60,16 @@ Through this portfolio, I showcase projects involving GIS analysis, remote sensi
 
   ***
   - QGIS, ArcGIS Pro, Google Earth Engine
-  - Multispectral and SAR image analysis
   - GDAL / OGR
+  - Multispectral and SAR image analysis
 
 - :material-code-braces:{ .lg .middle } **Programming**
 
   ***
   - Python — GeoPandas, NumPy, Pandas, Matplotlib
+  - R — sf, terra, ggplot2
   - JavaScript — Leaflet, MapLibre GL
   - SQL, PostgreSQL + PostGIS
-  - R — sf, terra, ggplot2
 
 - :material-star-four-points:{ .lg .middle } **Machine Learning & GeoAI**
 
@@ -80,23 +80,23 @@ Through this portfolio, I showcase projects involving GIS analysis, remote sensi
 - :material-earth:{ .lg .middle } **Web Mapping & Data**
 
   ***
+  - Leaflet.js, Folium, MapLibre GL JS
   - Cloud storage — AWS S3, Google Cloud Storage
   - Data formats — GeoTIFF, GeoParquet, NetCDF
-  - Leaflet.js, Folium, MapLibre GL JS
   - Streamlit for data-driven web apps
 
 - :material-database:{ .lg .middle } **Data & Cloud**
 
   ***
-  - Data formats: GeoJSON, GeoTIFF, NetCDF, GeoParquet
-  - Cloud storage: AWS S3, Google Cloud Storage
   - PostgreSQL + PostGIS
+  - Cloud storage: AWS S3, Google Cloud Storage
+  - Data formats: GeoJSON, GeoTIFF, NetCDF, GeoParquet
 
 - :material-airplane:{ .lg .middle } **Drone / UAV Data Processing**
 
   ***
-  - Photogrammetry: Agisoft Metashape, OpenDroneMap, Pix4D Mapper
   - Mission planning and flight operations
+  - Photogrammetry: Agisoft Metashape, OpenDroneMap, Pix4D Mapper
   - Point cloud processing: PDAL
 
 </div>

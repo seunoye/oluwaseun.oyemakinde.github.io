@@ -59,7 +59,7 @@ Through this portfolio, I showcase projects involving GIS analysis, remote sensi
 - :material-layers:{ .lg .middle } **GIS & Remote Sensing**
 
   ***
-  - QGIS, ArcGIS Pro, Google Earth Engine
+  - QGIS, ArcGIS Pro, Global Mapper, Google Earth Engine
   - GDAL / OGR
   - Multispectral and SAR image analysis
 

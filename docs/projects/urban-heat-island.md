@@ -12,7 +12,7 @@ CHECKLIST FOR THIS PAGE (copy this file for each new project):
 
 # 🌍 Urban Heat Island & Air Quality Analysis
 
-![Land Surface Temperature](../assets/images/LST_2022.png)
+![Land Surface Temperature](../assets/images/lst-2022.png)
 
 ## Overview
 
@@ -72,7 +72,7 @@ Using satellite remote sensing and Geographic Information Systems (GIS), I devel
 
 ## Study Area
 
-![Study Area](../assets/images/StudyArea_P1.png)
+![Study Area](../assets/images/studyarea-p1.png)
 
 The study focused on Lagos State, Nigeria, one of Africa's fastest-growing metropolitan regions. Rapid urbanisation, industrial development and population growth make Lagos an ideal case study for analysing Urban Heat Island effects and environmental change.
 
@@ -82,7 +82,7 @@ The study focused on Lagos State, Nigeria, one of Africa's fastest-growing metro
 
 ### Filling Missing MODIS Pixels
 
-![Focal Statistics](../assets/images/FST_Ops.png)
+![Focal Statistics](../assets/images/fst-ops.png)
 
 MODIS imagery contained missing values caused primarily by cloud contamination. Focal Statistics was applied to interpolate missing pixels and improve the continuity of the land surface temperature dataset before seasonal analysis.
 
@@ -94,19 +94,19 @@ MODIS imagery contained missing values caused primarily by cloud contamination. 
 
 #### 2013
 
-![LST 2013](../assets/images/LST_2013.png)
+![LST 2013](../assets/images/lst-2013.png)
 
 #### 2022
 
-![LST 2022](../assets/images/LST_2022.png)
-
+![LST 2022](../assets/images/lst-2022.png)
+ 
 The analysis showed a clear increase in the spatial extent of higher land surface temperatures between 2013 and 2022, particularly across highly urbanised areas.
 
 ---
 
 ### Temperature Trends
 
-![LST Trends](../assets/images/LST Trends 2013 - 2022.png)
+![LST Trends](../assets/images/lst-trends-2013-2022.png)
 
 Seasonal trend analysis demonstrated:
 
@@ -118,7 +118,7 @@ Seasonal trend analysis demonstrated:
 
 ### Rainy Season Analysis
 
-![Rainy Season](../assets/images/Rainy Season.png)
+![Rainy Season](../assets/images/rainy-season.png)
 
 The rainy season exhibited lower average land surface temperatures but continued to display pronounced spatial variation across the study area.
 
@@ -128,11 +128,11 @@ The rainy season exhibited lower average land surface temperatures but continued
 
 #### NO₂ Distribution (2013)
 
-![NO2 2013](../assets/images/NO2_2013.png)
+![NO2 2013](../assets/images/no2-2013.png)
 
 #### NO₂ Distribution (2022)
 
-![NO2 2022](../assets/images/NO2_2022.png)
+![NO2 2022](../assets/images/no2-2022.png)
 
 NO₂ concentrations remained highest within densely urbanised regions and major transport corridors.
 
@@ -140,7 +140,7 @@ NO₂ concentrations remained highest within densely urbanised regions and major
 
 ### NO₂ Trends
 
-![NO2 Trends](../assets/images/NO2 Concentrations.png)
+![NO2 Trends](../assets/images/no2-concentrations.png)
 
 Time-series analysis highlighted seasonal variability while showing that pollution hotspots remained spatially consistent over the study period.
 
@@ -148,7 +148,7 @@ Time-series analysis highlighted seasonal variability while showing that polluti
 
 ### Land Use / Land Cover Change
 
-![LULC](../assets/images/LULC.png)
+![LULC](../assets/images/lulc.png)
 
 Comparison of 2013 and 2022 classifications revealed:
 
@@ -160,7 +160,7 @@ Comparison of 2013 and 2022 classifications revealed:
 
 ### Population Exposure
 
-![Population at Risk](../assets/images/Popatrisk.png)
+![Population at Risk](../assets/images/popatrisk.png)
 
 Environmental indicators were integrated with population data to identify Local Government Areas where high temperatures and elevated NO₂ concentrations coincided with greater population exposure.
 
@@ -213,4 +213,7 @@ Environmental indicators were integrated with population data to identify Local 
 
 [View Code on GitHub](https://github.com/seunoye/urban-heat-island-analysis){ .md-button .md-button--primary }
 
-[View Dissertation](#){ .md-button }
+[View Dissertation][def]{ .md-button }
+
+
+[def]: ../assets/dissertation.pdf

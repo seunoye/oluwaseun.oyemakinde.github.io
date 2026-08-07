@@ -40,7 +40,7 @@ Through this portfolio, I showcase projects involving GIS analysis, remote sensi
 </div>
 
 <div class="about-image">
-  <img src="assets/images/About Me.jpeg" alt="About">
+  <img src="assets/images/about-me.jpeg" alt="About">
 </div>
 
 </div>
@@ -48,7 +48,7 @@ Through this portfolio, I showcase projects involving GIS analysis, remote sensi
 ---
 
 [View My Projects :material-arrow-right:](projects/index.md){ .md-button .md-button--primary }
-[Download CV :material-download:](assets/Oluwaseun-CV.pdf){ .md-button }
+[Download CV :material-download:](assets/oluwaseun-cv.pdf){ .md-button }
 
 ---
 

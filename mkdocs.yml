@@ -81,8 +81,9 @@ nav:
   - Projects:
     - "All Projects": projects/index.md
     - "Urban Heat Island & Air Quality": projects/urban-heat-island.md
+    - "UK Continental Shelf Oil Production": projects/ukcs-oil-production.md
     # HOW TO ADD A NEW PROJECT:
-    # 1. Copy docs/projects/sample-project.md to docs/projects/your-project-name.md
+    # 1. Create docs/projects/your-project-name.md and add your markdown content there
     #    (or drop an .ipynb file into docs/projects/ for a Jupyter notebook project)
     # 2. Edit the new file with your project content
     # 3. Add a line below (same format): - "Your Project Title": projects/your-project-name.md

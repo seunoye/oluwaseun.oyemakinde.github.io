@@ -15,32 +15,12 @@ CHECKLIST FOR THIS PAGE:
 
 ## Journal Articles
 
-1. [YOUR NAME], [CO-AUTHOR NAME], and [CO-AUTHOR NAME] ([YEAR]). "[Your paper title here]." *[Journal Name]*, [Volume] [Issue], [Page range]. [DOI link or URL]
-
-2. [YOUR NAME] and [CO-AUTHOR NAME] ([YEAR]). "[Your paper title here]." *[Journal Name]*, [Volume] [Issue], [Page range]. [DOI link or URL]
-
-3. [YOUR NAME] ([YEAR]). "[Your paper title here]." *[Journal Name]*, [Volume] [Issue], [Page range]. [DOI link or URL]
-
----
-
-## Conference Papers & Presentations
-
-1. [YOUR NAME] and [CO-AUTHOR NAME] ([YEAR]). "[Your presentation title]." *[Conference Name]*, [City, Country].
-
-2. [YOUR NAME] ([YEAR]). "[Your presentation title]." *[Conference Name]*, [City, Country].
-
----
+1. Akinmosin, A., Adeigbe, O.C., and Oyemakinde, O.O. (2011). "Scanning electron microscope description of the Afowo oil sand deposits in south-western Nigeria." *Earth Sciences Research Journal*, 15 (1), 19–26.
 
 ## Theses
 
-- [YOUR NAME] ([YEAR]). *[Your thesis title]*. [Degree type] thesis. [University Name].
+- Oyemakinde, O.O. (2023). *Satellite Remote Sensing of Urban Heat Islands Using MODIS Aqua MYD11A2: A Case Study on Lagos State, Nigeria*. MSc thesis. University of Aberdeen.
 
----
+- Oyemakinde, O.O. (2008). *Scanning electron microscope description of the Afowo oil sand deposits in south-western Nigeria*. BSc thesis. Olabisi Onabanjo University. (Findings later published as a co-authored journal article — see Akinmosin, Adeigbe, and Oyemakinde, 2011, above.)
 
-## Reports & Technical Documents
 
-- [YOUR NAME] et al. ([YEAR]). *[Report title]*. [Organization Name]. [URL or DOI if available]
-
----
-
-*For citation counts and a full list, see [Google Scholar](https://scholar.google.com) or [ResearchGate](https://www.researchgate.net).*

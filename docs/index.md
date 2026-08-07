@@ -56,46 +56,53 @@ Through this portfolio, I showcase projects involving GIS analysis, remote sensi
 
 <div class="grid cards" markdown>
 
-- :material-layers:{ .lg .middle } **GIS & Remote Sensing**
+-   :material-layers:{ .lg .middle } **GIS & Remote Sensing**
 
-  ***
-  - QGIS, ArcGIS Pro, Global Mapper, Google Earth Engine
-  - GDAL / OGR
-  - Multispectral and SAR image analysis
+    ---
 
-- :material-code-braces:{ .lg .middle } **Programming & Analysis**
+    - QGIS, ArcGIS Pro, Google Earth Engine
+    - GDAL / OGR
+    - Multispectral and SAR image analysis
 
-  ***
-  - Python — GeoPandas, NumPy, Pandas, Matplotlib
-  - R — sf, terra, ggplot2
-  - SQL, PostgreSQL + PostGIS
+-   :material-code-braces:{ .lg .middle } **Programming & Analysis**
 
-- :material-earth:{ .lg .middle } **Web Mapping & Apps**
+    ---
 
-  ***
-  - JavaScript — Leaflet.js, Folium, MapLibre GL
-  - Streamlit for data-driven web apps
+    - Python — GeoPandas, NumPy, Pandas, Matplotlib
+    - R — sf, terra, ggplot2
+    - SQL, PostgreSQL + PostGIS
 
-- :material-database:{ .lg .middle } **Cloud & Data Engineering**
+-   :material-earth:{ .lg .middle } **Web Mapping & Apps**
 
-  ***
-  - Cloud storage — AWS S3, Google Cloud Storage
-  - Data formats — GeoJSON, GeoTIFF, NetCDF, GeoParquet
+    ---
 
-- :material-star-four-points:{ .lg .middle } **Machine Learning & GeoAI**
+    - JavaScript — Leaflet.js, Folium, MapLibre GL
+    - Streamlit for data-driven web apps
 
-  ***
-  - Supervised classification — Random Forest
-  - Object detection in satellite imagery
+-   :material-database:{ .lg .middle } **Cloud & Data Engineering**
 
-- :material-airplane:{ .lg .middle } **Drone / UAV Data Processing**
+    ---
 
-  ***
-  - Mission planning and flight operations
-  - Photogrammetry: Agisoft Metashape, OpenDroneMap, Pix4D Mapper
-  - Point cloud processing: PDAL
+    - Cloud storage — AWS S3, Google Cloud Storage
+    - Data formats — GeoJSON, GeoTIFF, NetCDF, GeoParquet
+
+-   :material-star-four-points:{ .lg .middle } **Machine Learning & GeoAI**
+
+    ---
+
+    - Supervised classification — Random Forest
+    - Object detection in satellite imagery
+
+-   :material-airplane:{ .lg .middle } **Drone / UAV Data Processing**
+
+    ---
+
+    - Mission planning and flight operations
+    - Photogrammetry: Agisoft Metashape, OpenDroneMap, Pix4D Mapper
+    - Point cloud processing: PDAL
 
 </div>
+
 ## Connect
 
 [GitHub](https://github.com/seunoye/){ .md-button }

@@ -19,11 +19,11 @@ A selection of my geospatial projects. Click any card to see the full write-up.
 <div class="grid" markdown>
 
 <div class="project-card" markdown>
-![](../assets/images/LST_2022.png)
+![](../assets/LST_2022.png)
 
 **[Urban Heat Island & Air Quality Analysis](urban-heat-island.md)**
 
-Explored Lagos UHI patterns using MODIS and Landsat, mapped NO₂ hotspots, and evaluated population exposure with GIS.
+This MSc research project investigated the spatial and temporal relationship between **Urban Heat Island (UHI) intensity**, **land surface temperature (LST)**, **nitrogen dioxide (NO₂)**, **land use/land cover (LULC) change**, and **population exposure** across Lagos State, Nigeria.
 
 `GIS` `Remote Sensing` `Python`
 
@@ -33,11 +33,11 @@ Explored Lagos UHI patterns using MODIS and Landsat, mapped NO₂ hotspots, and 
 <div class="project-card" markdown>
 ![](../assets/images/LULC.png)
 
-**[Jupyter Notebook Project](urban-heat-islands-lagos.ipynb)**
+**[urban_heat_islands_python codes](urban-heat-islands-lagos.ipynb)**
 
 Jupyter notebook demonstrating LST and NO₂ analysis across Lagos.
 
-`Python` `pandas` `Matplotlib`
+`Python` `Pandas` `Matplotlib`
 
 [View Project →](urban-heat-islands-lagos.ipynb){ .md-button }
 </div>

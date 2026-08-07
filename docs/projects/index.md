@@ -19,29 +19,27 @@ A selection of my geospatial projects. Click any card to see the full write-up.
 <div class="grid" markdown>
 
 <div class="project-card" markdown>
-![](../assets/images/placeholder-project.png)
+![](../assets/images/LST_2022.png)
 
-**[Sample Project](sample-project.md)**
+**[Urban Heat Island & Air Quality Analysis](urban-heat-island.md)**
 
-[YOUR PROJECT DESCRIPTION — one or two sentences: what you did, what data you used,
-and what you found or built.]
+Explored Lagos UHI patterns using MODIS and Landsat, mapped NO₂ hotspots, and evaluated population exposure with GIS.
 
-`[TOOL 1]` `[TOOL 2]` `[TOOL 3]`
+`GIS` `Remote Sensing` `Python`
 
-[View Project →](sample-project.md){ .md-button }
+[View Project →](urban-heat-island.md){ .md-button }
 </div>
 
 <div class="project-card" markdown>
 ![](../assets/images/placeholder-notebook.png)
 
-**[Sample Notebook](sample-notebook.ipynb)**
+**[Urban Heat Islands Lagos Notebook](urban-heat-islands-lagos.ipynb)**
 
-[YOUR PROJECT DESCRIPTION — one or two sentences: what you did, what data you used,
-and what you found or built.]
+Interactive notebook demonstrating LST and NO₂ analysis across Lagos, with charts and mapping.
 
 `Python` `pandas` `Folium`
 
-[View Project →](sample-notebook.ipynb){ .md-button }
+[View Project →](urban-heat-islands-lagos.ipynb){ .md-button }
 </div>
 
 </div>

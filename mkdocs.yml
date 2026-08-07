@@ -81,7 +81,7 @@ nav:
   - Projects:
     - "All Projects": projects/index.md
     - "Urban Heat Island & Air Quality": projects/urban-heat-island.md
-    - "Jupyter Notebook Project": projects/sample-notebook.ipynb
+    - "Jupyter Notebook Project": projects/urban-heat-islands-lagos.ipynb
     # HOW TO ADD A NEW PROJECT:
     # 1. Copy docs/projects/sample-project.md to docs/projects/your-project-name.md
     #    (or drop an .ipynb file into docs/projects/ for a Jupyter notebook project)

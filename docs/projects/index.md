@@ -31,13 +31,13 @@ Explored Lagos UHI patterns using MODIS and Landsat, mapped NO₂ hotspots, and 
 </div>
 
 <div class="project-card" markdown>
-![](../assets/images/placeholder-notebook.png)
+![](../assets/images/LULC.png)
 
-**[Urban Heat Islands Lagos Notebook](urban-heat-islands-lagos.ipynb)**
+**[Jupyter Notebook Project](urban-heat-islands-lagos.ipynb)**
 
-Interactive notebook demonstrating LST and NO₂ analysis across Lagos, with charts and mapping.
+Jupyter notebook demonstrating LST and NO₂ analysis across Lagos.
 
-`Python` `pandas` `Folium`
+`Python` `pandas` `Matplotlib`
 
 [View Project →](urban-heat-islands-lagos.ipynb){ .md-button }
 </div>

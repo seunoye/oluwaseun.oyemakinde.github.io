@@ -106,10 +106,20 @@
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
 }
 
-.project-card img {
+..project-card img {
   width: 100%;
-  height: 100px;
+  aspect-ratio: 16 / 9;
   object-fit: cover;
-  border-radius: 4px;
-  margin-bottom: 0.75rem;
+  object-position: center;
+  border-radius: 8px;
+  display: block;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-card .md-button {
+  margin-top: auto;
 }

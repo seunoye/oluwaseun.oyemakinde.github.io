@@ -16,7 +16,7 @@
         <link rel="prev" href="../">
       
       
-        <link rel="next" href="../urban-heat-islands-lagos/">
+        <link rel="next" href="../ukcs-oil-production/">
       
       
         
@@ -576,6 +576,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#environment-setup" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Environment Setup
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#study-area" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -635,7 +646,18 @@
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Land Surface Temperature">
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#summary-statistics" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Summary statistics
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Summary statistics">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -813,14 +835,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../urban-heat-islands-lagos/" class="md-nav__link">
+      <a href="../ukcs-oil-production/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Urban Heat Islands Python Codes
+    UK Continental Shelf Oil Production
   
 
     
@@ -1010,6 +1032,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#environment-setup" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Environment Setup
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#study-area" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -1069,7 +1102,18 @@
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Land Surface Temperature">
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#summary-statistics" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Summary statistics
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Summary statistics">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -1357,6 +1401,14 @@ CHECKLIST FOR THIS PAGE (copy this file for each new project):
 </tbody>
 </table>
 <hr />
+<h2 id="environment-setup">Environment Setup</h2>
+<div class="highlight"><pre><span></span><code>    import os
+    import arcpy
+    from arcpy.sa import *
+    from arcpy.ia import *
+    import pandas as pd
+    import matplotlib.pyplot as plt
+</code></pre></div>
 <h2 id="study-area">Study Area</h2>
 <p><img alt="Study Area" src="../../assets/images/studyarea-p1.png" /></p>
 <p>The study focused on Lagos State, Nigeria, one of Africa's fastest-growing metropolitan regions. Rapid urbanisation, industrial development and population growth make Lagos an ideal case study for analysing Urban Heat Island effects and environmental change.</p>
@@ -1368,6 +1420,28 @@ CHECKLIST FOR THIS PAGE (copy this file for each new project):
 <hr />
 <h2 id="results">Results</h2>
 <h3 id="land-surface-temperature">Land Surface Temperature</h3>
+<div class="highlight"><pre><span></span><code>    years = list(range(2013, 2023))
+
+    rainy_season = pd.DataFrame({
+        &quot;year&quot;: years,
+        &quot;lst_max&quot;: [31.75, 33.92, 32.48, 33.57, 33.86, 32.21, 33.11, 33.07, 33.24, 30.89],
+        &quot;lst_min&quot;: [22.13, 20.44, 20.23, 21.89, 9.29, 16.03, 21.90, 22.10, 20.93, 18.22],
+        &quot;lst_mean&quot;: [25.41, 25.50, 25.22, 26.55, 25.04, 25.26, 25.91, 26.48, 26.47, 24.76],
+    })
+
+    dry_season = pd.DataFrame({
+        &quot;year&quot;: years,
+        &quot;lst_max&quot;: [31.30, 31.24, 30.96, 30.74, 31.15, 31.66, 32.49, 31.53, 31.96, 31.79],
+        &quot;lst_min&quot;: [23.24, 23.38, 23.47, 22.65, 23.72, 23.91, 23.97, 23.90, 24.16, 23.79],
+        &quot;lst_mean&quot;: [26.03, 26.37, 26.13, 26.47, 26.74, 26.84, 27.16, 26.88, 27.18, 27.12],
+    })
+
+    rainy_season.head()
+</code></pre></div>
+<h3 id="summary-statistics">Summary statistics</h3>
+<div class="highlight"><pre><span></span><code>    rainy_season[[&quot;lst_max&quot;, &quot;lst_min&quot;, &quot;lst_mean&quot;]].describe()
+    dry_season[[&quot;lst_max&quot;, &quot;lst_min&quot;, &quot;lst_mean&quot;]].describe()
+</code></pre></div>
 <h4 id="2013">2013</h4>
 <p><img alt="LST 2013" src="../../assets/images/lst-2013.png" /></p>
 <h4 id="2022">2022</h4>
@@ -1375,6 +1449,17 @@ CHECKLIST FOR THIS PAGE (copy this file for each new project):
 <p>The analysis showed a clear increase in the spatial extent of higher land surface temperatures between 2013 and 2022, particularly across highly urbanised areas.</p>
 <hr />
 <h3 id="temperature-trends">Temperature Trends</h3>
+<div class="highlight"><pre><span></span><code>    fig, ax = plt.subplots(figsize=(10, 4))
+    ax.plot(rainy_season[&quot;year&quot;], rainy_season[&quot;lst_mean&quot;], marker=&quot;o&quot;, label=&quot;Rainy Season Mean LST&quot;, color=&quot;steelblue&quot;)
+    ax.plot(dry_season[&quot;year&quot;], dry_season[&quot;lst_mean&quot;], marker=&quot;s&quot;, label=&quot;Dry Season Mean LST&quot;, color=&quot;coral&quot;)
+    ax.set_title(&quot;Mean Land Surface Temperature by Season (2013–2022)&quot;, fontsize=14, fontweight=&quot;bold&quot;)
+    ax.set_xlabel(&quot;Year&quot;)
+    ax.set_ylabel(&quot;LST (°C)&quot;)
+    ax.legend()
+    ax.grid(axis=&quot;y&quot;, linestyle=&quot;--&quot;, alpha=0.5)
+    plt.tight_layout()
+    plt.show()
+</code></pre></div>
 <p><img alt="LST Trends" src="../../assets/images/lst-trends-2013-2022.png" /></p>
 <p>Seasonal trend analysis demonstrated:</p>
 <ul>
@@ -1388,6 +1473,13 @@ CHECKLIST FOR THIS PAGE (copy this file for each new project):
 <p>The rainy season exhibited lower average land surface temperatures but continued to display pronounced spatial variation across the study area.</p>
 <hr />
 <h3 id="nitrogen-dioxide-analysis">Nitrogen Dioxide Analysis</h3>
+<div class="highlight"><pre><span></span><code>    no2 = pd.DataFrame({
+    &quot;year&quot;: years,
+    &quot;no2_dry_mean&quot;: [1.55, 1.41, 1.71, 1.80, 1.70, 1.76, 1.64, 1.64, 1.65, 1.62],
+    &quot;no2_rainy_mean&quot;: [1.10, 1.07, 1.07, 1.12, 1.02, 1.09, 1.09, 0.94, 1.04, 1.04],
+    })
+    no2.head()
+</code></pre></div>
 <h4 id="no2-distribution-2013">NO₂ Distribution (2013)</h4>
 <p><img alt="NO2 2013" src="../../assets/images/no2-2013.png" /></p>
 <h4 id="no2-distribution-2022">NO₂ Distribution (2022)</h4>
@@ -1395,6 +1487,17 @@ CHECKLIST FOR THIS PAGE (copy this file for each new project):
 <p>NO₂ concentrations remained highest within densely urbanised regions and major transport corridors.</p>
 <hr />
 <h3 id="no2-trends">NO₂ Trends</h3>
+<div class="highlight"><pre><span></span><code>    fig, ax = plt.subplots(figsize=(10, 4))
+    ax.plot(no2[&quot;year&quot;], no2[&quot;no2_dry_mean&quot;], marker=&quot;o&quot;, label=&quot;Dry Season&quot;, color=&quot;steelblue&quot;)
+    ax.plot(no2[&quot;year&quot;], no2[&quot;no2_rainy_mean&quot;], marker=&quot;s&quot;, label=&quot;Rainy Season&quot;, color=&quot;coral&quot;)
+    ax.set_title(&quot;NO2 Tropospheric Column Concentrations (2013–2022)&quot;, fontsize=14, fontweight=&quot;bold&quot;)
+    ax.set_xlabel(&quot;Year&quot;)
+    ax.set_ylabel(&quot;NO2 Concentration (10^15 molecules/cm^2)&quot;)
+    ax.legend()
+    ax.grid(axis=&quot;y&quot;, linestyle=&quot;--&quot;, alpha=0.5)
+    plt.tight_layout()
+    plt.show()
+</code></pre></div>
 <p><img alt="NO2 Trends" src="../../assets/images/no2-concentrations.png" /></p>
 <p>Time-series analysis highlighted seasonal variability while showing that pollution hotspots remained spatially consistent over the study period.</p>
 <hr />
@@ -1438,7 +1541,6 @@ CHECKLIST FOR THIS PAGE (copy this file for each new project):
 <p><code>Scientific Research</code></p>
 <hr />
 <h2 id="repository">Repository</h2>
-<p><a class="md-button md-button--primary" href="https://github.com/seunoye/urban-heat-island-analysis">View Code on GitHub</a></p>
 <p><a class="md-button" href="../../assets/dissertation.pdf">View Dissertation</a></p>
 
 

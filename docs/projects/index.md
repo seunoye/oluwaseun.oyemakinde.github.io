@@ -19,7 +19,7 @@ A selection of my geospatial projects. Click any card to see the full write-up.
 <div class="grid" markdown>
 
 <div class="project-card" markdown>
-![](../assets/images/lst-22.png)
+![](../assets/images/lst-2022.png)
 
 **[Urban Heat Island & Air Quality Analysis](urban-heat-island.md)**
 
@@ -30,19 +30,4 @@ This MSc research project investigated the spatial and temporal relationship bet
 [View Project →](urban-heat-island.md){ .md-button }
 </div>
 
-<div class="project-card" markdown>
-![](../assets/images/lulc.png)
-
-**[Urban Heat Islands Python Scripts][def]**
-
-Jupyter notebook demonstrating LST and NO₂ analysis across Lagos.
-
-`Python` `Pandas` `Matplotlib`
-
-[View Project →][def]{ .md-button }
 </div>
-
-</div>
-
-
-[def]: urban-heat-islands-lagos.ipynb

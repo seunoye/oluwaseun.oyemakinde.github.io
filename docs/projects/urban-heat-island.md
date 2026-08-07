@@ -70,6 +70,18 @@ Using satellite remote sensing and Geographic Information Systems (GIS), I devel
 
 ---
 
+## Environment Setup
+
+```
+    import os
+    import arcpy
+    from arcpy.sa import *
+    from arcpy.ia import *
+    import pandas as pd
+    import matplotlib.pyplot as plt
+
+```
+
 ## Study Area
 
 ![Study Area](../assets/images/studyarea-p1.png)
@@ -92,6 +104,34 @@ MODIS imagery contained missing values caused primarily by cloud contamination. 
 
 ### Land Surface Temperature
 
+```
+    years = list(range(2013, 2023))
+
+    rainy_season = pd.DataFrame({
+        "year": years,
+        "lst_max": [31.75, 33.92, 32.48, 33.57, 33.86, 32.21, 33.11, 33.07, 33.24, 30.89],
+        "lst_min": [22.13, 20.44, 20.23, 21.89, 9.29, 16.03, 21.90, 22.10, 20.93, 18.22],
+        "lst_mean": [25.41, 25.50, 25.22, 26.55, 25.04, 25.26, 25.91, 26.48, 26.47, 24.76],
+    })
+
+    dry_season = pd.DataFrame({
+        "year": years,
+        "lst_max": [31.30, 31.24, 30.96, 30.74, 31.15, 31.66, 32.49, 31.53, 31.96, 31.79],
+        "lst_min": [23.24, 23.38, 23.47, 22.65, 23.72, 23.91, 23.97, 23.90, 24.16, 23.79],
+        "lst_mean": [26.03, 26.37, 26.13, 26.47, 26.74, 26.84, 27.16, 26.88, 27.18, 27.12],
+    })
+
+    rainy_season.head()
+ 
+```
+### Summary statistics
+
+```
+    rainy_season[["lst_max", "lst_min", "lst_mean"]].describe()
+    dry_season[["lst_max", "lst_min", "lst_mean"]].describe()
+
+```
+
 #### 2013
 
 ![LST 2013](../assets/images/lst-2013.png)
@@ -105,6 +145,20 @@ The analysis showed a clear increase in the spatial extent of higher land surfac
 ---
 
 ### Temperature Trends
+
+```
+    fig, ax = plt.subplots(figsize=(10, 4))
+    ax.plot(rainy_season["year"], rainy_season["lst_mean"], marker="o", label="Rainy Season Mean LST", color="steelblue")
+    ax.plot(dry_season["year"], dry_season["lst_mean"], marker="s", label="Dry Season Mean LST", color="coral")
+    ax.set_title("Mean Land Surface Temperature by Season (2013–2022)", fontsize=14, fontweight="bold")
+    ax.set_xlabel("Year")
+    ax.set_ylabel("LST (°C)")
+    ax.legend()
+    ax.grid(axis="y", linestyle="--", alpha=0.5)
+    plt.tight_layout()
+    plt.show()
+
+```
 
 ![LST Trends](../assets/images/lst-trends-2013-2022.png)
 
@@ -126,6 +180,16 @@ The rainy season exhibited lower average land surface temperatures but continued
 
 ### Nitrogen Dioxide Analysis
 
+```
+    no2 = pd.DataFrame({
+    "year": years,
+    "no2_dry_mean": [1.55, 1.41, 1.71, 1.80, 1.70, 1.76, 1.64, 1.64, 1.65, 1.62],
+    "no2_rainy_mean": [1.10, 1.07, 1.07, 1.12, 1.02, 1.09, 1.09, 0.94, 1.04, 1.04],
+    })
+    no2.head()
+
+```
+
 #### NO₂ Distribution (2013)
 
 ![NO2 2013](../assets/images/no2-2013.png)
@@ -139,6 +203,20 @@ NO₂ concentrations remained highest within densely urbanised regions and major
 ---
 
 ### NO₂ Trends
+
+```
+    fig, ax = plt.subplots(figsize=(10, 4))
+    ax.plot(no2["year"], no2["no2_dry_mean"], marker="o", label="Dry Season", color="steelblue")
+    ax.plot(no2["year"], no2["no2_rainy_mean"], marker="s", label="Rainy Season", color="coral")
+    ax.set_title("NO2 Tropospheric Column Concentrations (2013–2022)", fontsize=14, fontweight="bold")
+    ax.set_xlabel("Year")
+    ax.set_ylabel("NO2 Concentration (10^15 molecules/cm^2)")
+    ax.legend()
+    ax.grid(axis="y", linestyle="--", alpha=0.5)
+    plt.tight_layout()
+    plt.show()
+
+```
 
 ![NO2 Trends](../assets/images/no2-concentrations.png)
 
@@ -210,8 +288,6 @@ Environmental indicators were integrated with population data to identify Local 
 ---
 
 ## Repository
-
-[View Code on GitHub](https://github.com/seunoye/urban-heat-island-analysis){ .md-button .md-button--primary }
 
 [View Dissertation][def]{ .md-button }
 

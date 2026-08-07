@@ -18,10 +18,48 @@ CHECKLIST FOR THIS PAGE:
 -->
 
 <div class="hero">
-  <img src="assets/images/profile1.jpeg" alt="Oluwaseun Oyemakinde" class="profile-photo">
-  <h1>Oluwaseun Oyemakinde</h1>
-  <p><strong>GIS Analyst | Remote Sensing Specialist | Hydrographic Data Processor</strong></p>
-  <p><em>From offshore survey data to spatial intelligence — turning raw geospatial data into decisions that matter</em></p>
+
+<img src="assets/images/profile1.jpeg" alt="Oluwaseun Oyemakinde" class="profile-photo">
+
+<h>Oluwaseun Oyemakinde</h>
+
+<p>Geospatial Data Analyst | GIS & Remote Sensing Specialist</p>
+<p><em>Transforming satellite imagery, GIS and spatial data into actionable insights for environmental management, infrastructure, offshore operations and public sector decision-making</em></p>
+
+<div class="hero-buttons" markdown>
+
+[View My Projects :material-arrow-right:](projects/index.md){ .md-button .md-button--primary }
+
+[Download CV :material-download:](assets/oluwaseun-cv.pdf){ .md-button }
+
+</div>
+
+---
+
+## At a Glance
+
+<div class="grid cards" markdown>
+
+- :material-map-marker:{ .lg .middle } **Location**
+
+    **Falkirk, Scotland, UK**
+
+    Available for opportunities across the UK and internationally.
+
+- :material-school:{ .lg .middle } **Education**
+
+    **MSc Geographic Information Systems**
+
+    University of Aberdeen
+
+- :material-briefcase:{ .lg .middle } **Experience**
+
+    GIS • Remote Sensing • Hydrography • UAV Mapping • Spatial Data Management
+
+- :material-code-json:{ .lg .middle } **Primary Technologies**
+
+    ArcGIS Pro • QGIS • Python • SQL • ArcPy • PostGIS
+
 </div>
 
 ---
@@ -29,75 +67,227 @@ CHECKLIST FOR THIS PAGE:
 ## About Me
 
 <div class="about-section" markdown>
+
 <div class="about-text" markdown>
 
-I am a geospatial analyst specialising in GIS, remote sensing, and hydrographic data processing, with experience transforming complex spatial datasets into actionable insights. My background combines offshore survey operations, geospatial analysis, and operational data management, supported by an MSc in Geographic Information Systems from the University of Aberdeen.
+I am a **Geospatial Data Analyst** with experience in **GIS, remote sensing, hydrographic data processing, UAV mapping and spatial data management**. My work focuses on transforming complex geospatial datasets into clear, evidence-based insights that support environmental management, infrastructure planning, offshore operations and public sector decision-making.
 
-I work with ArcGIS Pro, QGIS, Python, SQL, PostGIS, and remote sensing platforms to analyse, visualise, and communicate spatial information. My experience processing multibeam sonar, positioning data, satellite imagery, and environmental datasets has developed a strong foundation in data quality, spatial analysis, and geospatial problem-solving.
+My experience spans satellite imagery, hydrographic survey data, environmental monitoring and enterprise GIS workflows. I enjoy integrating spatial analysis, automation and visualisation to solve real-world problems, whether processing offshore survey data, analysing environmental change or developing interactive spatial dashboards.
 
-Through this portfolio, I showcase projects involving GIS analysis, remote sensing, spatial databases, and data-driven decision support. I am passionate about using geospatial technology to solve real-world challenges across environmental monitoring, infrastructure, marine operations, and public sector planning.
+I work with **ArcGIS Pro, QGIS, Python, SQL, PostGIS and modern geospatial technologies** to build reproducible workflows, automate analysis and communicate results through high-quality maps, dashboards and technical reports.
+
+This portfolio showcases projects covering **GIS analysis, remote sensing, environmental modelling, hydrographic data processing, Python automation and spatial decision support**, demonstrating both my technical capabilities and my approach to solving complex geospatial challenges.
 
 </div>
 
 <div class="about-image">
-  <img src="assets/images/about-me.jpeg" alt="About">
+
+<img src="assets/images/about-me.jpeg" alt="About Me">
+
 </div>
 
 </div>
 
 ---
 
-[View My Projects :material-arrow-right:](projects/index.md){ .md-button .md-button--primary }
-[Download CV :material-download:](assets/oluwaseun-cv.pdf){ .md-button }
+## Featured Projects
 
----
+<div class="grid cards" markdown>
 
-## Skills
+- ### 🌍 Urban Heat Island & Air Quality Analysis
 
-<div class="grid cards" markdown='1'>
+    Investigated the relationship between **Land Surface Temperature, NO₂, land use change and population exposure** across Lagos State using MODIS, Landsat and ArcGIS Pro.
 
-- :material-layers:{ .lg .middle } **GIS & Remote Sensing**
+    `Remote Sensing` `ArcGIS Pro` `Python` `Environmental GIS`
 
-  ***
-  - QGIS, ArcGIS Pro, Google Earth Engine
-  - GDAL / OGR
-  - Multispectral and SAR image analysis
+    [View Project →](projects/urban-heat-island.md){ .md-button }
 
-- :material-code-braces:{ .lg .middle } **Programming & Analysis**
+- ### 🛢️ UK Continental Shelf Oil Production Analysis
 
-  ***
-  - Python — GeoPandas, NumPy, Pandas, Matplotlib
-  - R — sf, terra, ggplot2
-  - SQL, PostgreSQL + PostGIS
+    Applied exploratory spatial analysis, SQL and geostatistics to investigate historical offshore oil production, geological basins and production trends across the UK Continental Shelf.
 
-- :material-earth:{ .lg .middle } **Web Mapping & Apps**
+    `GIS` `Spatial Analysis` `SQL` `Cartography`
 
-  ***
-  - JavaScript — Leaflet.js, Folium, MapLibre GL
-  - Streamlit for data-driven web apps
-
-- :material-database:{ .lg .middle } **Cloud & Data Engineering**
-
-  ***
-  - Cloud storage — AWS S3, Google Cloud Storage
-  - Data formats — GeoJSON, GeoTIFF, NetCDF, GeoParquet
-
-- :material-star-four-points:{ .lg .middle } **Machine Learning & GeoAI**
-
-  ***
-  - Supervised classification — Random Forest
-  - Object detection in satellite imagery
-
-- :material-airplane:{ .lg .middle } **Drone / UAV Data Processing**
-
-  ***
-  - Mission planning and flight operations
-  - Photogrammetry: Agisoft Metashape, OpenDroneMap, Pix4D Mapper
-  - Point cloud processing: PDAL
+    [View Project →](projects/ukcs-oil-production.md){ .md-button }
 
 </div>
 
-## Connect
+--- 
 
-[GitHub](https://github.com/seunoye/){ .md-button }
-[LinkedIn](https://linkedin.com/in/oluwaseunoyemakinde/){ .md-button }
+## Core Expertise
+
+<div class="grid cards" markdown>
+
+- :material-map-search:{ .lg .middle } **GIS & Spatial Analysis**
+
+    Design, manage and analyse geospatial data to support evidence-based decision making.
+
+    **Technologies**
+    - ArcGIS Pro
+    - ArcGIS Online
+    - QGIS
+    - Spatial Analyst
+    - Cartography
+    - Geostatistics
+    - Network Analysis
+    - GDAL / OGR
+
+- :material-satellite-variant:{ .lg .middle } **Remote Sensing & Earth Observation**
+
+    Process and analyse satellite and aerial imagery for environmental monitoring and land-use analysis.
+
+    **Experience**
+    - Google Earth Engine
+    - Landsat
+    - Sentinel-1 & Sentinel-2
+    - MODIS
+    - SAR Imagery
+    - NDVI & Spectral Indices
+    - Raster Processing
+
+- :material-code-braces:{ .lg .middle } **Programming & Data Analysis**
+
+    Automate GIS workflows and perform reproducible spatial analysis.
+
+    **Languages & Libraries**
+    - Python
+    - ArcPy
+    - GeoPandas
+    - Pandas
+    - NumPy
+    - Matplotlib
+    - SQL
+    - PostgreSQL + PostGIS
+
+- :material-web:{ .lg .middle } **Web GIS & Visualisation**
+
+    Develop interactive dashboards and web mapping applications for communicating spatial insights.
+
+    **Frameworks**
+    - Streamlit
+    - Folium
+    - Leaflet.js
+    - MapLibre GL
+    - GeoJSON
+
+- :material-database-cog:{ .lg .middle } **Geospatial Data Engineering**
+
+    Build scalable workflows for storing, transforming and managing spatial datasets.
+
+    **Technologies**
+    - PostgreSQL
+    - PostGIS
+    - GeoPackage
+    - GeoParquet
+    - GeoTIFF
+    - NetCDF
+    - AWS S3
+    - Google Cloud Storage
+
+- :material-drone:{ .lg .middle } **UAV Mapping & Photogrammetry**
+
+    Capture, process and analyse UAV imagery for mapping and 3D reconstruction.
+
+    **Software**
+    - Agisoft Metashape
+    - Pix4D Mapper
+    - OpenDroneMap
+    - PDAL
+    - Point Cloud Processing
+    - Mission Planning
+    - Orthomosaic Generation
+    - Digital Surface Models
+
+</div>
+
+--- 
+
+## Professional Competencies
+
+<div class="grid cards" markdown>
+
+- :material-chart-line:{ .lg .middle } **Spatial Analytics**
+
+    Spatial statistics • Change Detection • Interpolation • Environmental Modelling • Hotspot Analysis
+
+- :material-map-marker-path:{ .lg .middle } **Cartography & Visualisation**
+
+    Publication-quality mapping • Layout Design • Symbology • Data Visualisation • Spatial Storytelling
+
+- :material-robot-outline:{ .lg .middle } **Automation**
+
+    Python • ArcPy • Workflow Optimisation • Batch Processing • Reproducible Analysis
+
+- :material-account-group:{ .lg .middle } **Project Delivery**
+
+    Requirements Gathering • Stakeholder Engagement • Technical Reporting • Documentation • Agile Working
+
+</div>
+
+--- 
+
+## Professional Development
+
+<div class="grid cards" markdown>
+
+- :material-school:{ .lg .middle }
+
+    **Currently Developing**
+    - Geospatial Data Engineering
+    - Cloud-native GIS
+    - DuckDB & GeoParquet
+    - dbt
+    - Apache Airflow
+    - Advanced PostGIS
+    - GeoAI & Machine Learning
+
+</div>
+
+--- 
+
+## Certifications & Continuous Learning
+
+<div class="grid cards" markdown>
+
+- :material-certificate:{ .lg .middle }
+
+    - Geospatial Data Engineering
+    - Scrum with AI Certified
+    - Scrum Fundamentals Certified
+    - Application of GIS in Conservation Mapping
+    - ArcGIS Python Scripting
+    - Point Cloud Processing & 3D Visualisation
+    - CoRise SQL Crash Course
+
+</div>
+
+--- 
+
+## Explore My Portfolio
+
+This portfolio demonstrates practical experience across a broad range of geospatial disciplines.
+
+<div class="grid cards" markdown>
+
+- 🌍 GIS & Spatial Analysis
+- 🛰 Remote Sensing
+- 🗺 Cartography & Data Visualisation
+- 🌊 Hydrographic Data Processing
+- 🚁 UAV Mapping
+- 🐍 Python Automation
+- 🛢 Energy & Environmental Analysis
+- 📊 Spatial Decision Support
+
+</div>
+
+--- 
+
+## Let's Connect
+
+I'm always interested in discussing **GIS, remote sensing, hydrography, geospatial data engineering and spatial data science**, as well as opportunities to collaborate on projects that use geospatial technology to solve real-world challenges.
+
+[:fontawesome-brands-github: GitHub](https://github.com/seunoye){ .md-button .md-button--primary }
+
+[:fontawesome-brands-linkedin: LinkedIn](https://linkedin.com/in/oluwaseunoyemakinde){ .md-button }
+
+[:material-email: Email](mailto:seunoyemakinde@hotmail.com){ .md-button }

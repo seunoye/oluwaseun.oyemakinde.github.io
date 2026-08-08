@@ -21,19 +21,16 @@ CHECKLIST FOR THIS PAGE:
 
 <img src="assets/images/profile1.jpeg" alt="Oluwaseun Oyemakinde" class="profile-photo">
 
-<h>Oluwaseun Oyemakinde</h>
+<h1>Oluwaseun Oyemakinde</h1>
 
 <p>Geospatial Data Analyst | GIS & Remote Sensing Specialist</p>
 <p><em>Transforming satellite imagery, GIS and spatial data into actionable insights for environmental management, infrastructure, offshore operations and public sector decision-making</em></p>
 
 <div class="hero-buttons" markdown>
 
-[View My Projects :material-arrow-right:](projects/index.md){ .md-button .md-button--primary }
-
-[Download CV :material-download:](assets/oluwaseun-cv.pdf){ .md-button }
-
 </div>
-
+</div>
+[Download CV :material-download:](assets/oluwaseun-cv.pdf){ .md-button .md-button--primary }
 ---
 
 ## At a Glance
@@ -112,7 +109,7 @@ This portfolio showcases projects covering **GIS analysis, remote sensing, envir
 
 </div>
 
---- 
+---
 
 ## Core Expertise
 
@@ -200,7 +197,7 @@ This portfolio showcases projects covering **GIS analysis, remote sensing, envir
 
 </div>
 
---- 
+---
 
 ## Professional Competencies
 
@@ -224,7 +221,7 @@ This portfolio showcases projects covering **GIS analysis, remote sensing, envir
 
 </div>
 
---- 
+---
 
 ## Professional Development
 
@@ -243,7 +240,7 @@ This portfolio showcases projects covering **GIS analysis, remote sensing, envir
 
 </div>
 
---- 
+---
 
 ## Certifications & Continuous Learning
 
@@ -261,7 +258,7 @@ This portfolio showcases projects covering **GIS analysis, remote sensing, envir
 
 </div>
 
---- 
+---
 
 ## Explore My Portfolio
 
@@ -280,7 +277,7 @@ This portfolio demonstrates practical experience across a broad range of geospat
 
 </div>
 
---- 
+---
 
 ## Let's Connect
 

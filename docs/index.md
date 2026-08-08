@@ -283,8 +283,7 @@ This portfolio demonstrates practical experience across a broad range of geospat
 
 I'm always interested in discussing **GIS, remote sensing, hydrography, geospatial data engineering and spatial data science**, as well as opportunities to collaborate on projects that use geospatial technology to solve real-world challenges.
 
-[:fontawesome-brands-github: GitHub](https://github.com/seunoye){ .md-button .md-button--primary }
+[Download CV :material-download:](assets/oluwaseun-cv.pdf){ .md-button .md-button--primary }
 
-[:fontawesome-brands-linkedin: LinkedIn](https://linkedin.com/in/oluwaseunoyemakinde){ .md-button }
+[:fontawesome-brands-github: GitHub](https://github.com/seunoye){ .md-button } [:fontawesome-brands-linkedin: Linkedln](https://linkedin.com/in/oluwaseunoyemakinde){ .md-button } :material-email: **Email** [seunoyemakinde@hotmail.com](mailto:seunoyemakinde@hotmail.com){ .md-button }
 
-[:material-email: Email](mailto:seunoyemakinde@hotmail.com){ .md-button }

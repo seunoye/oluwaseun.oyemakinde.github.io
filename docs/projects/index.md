@@ -43,4 +43,18 @@ This independent GIS analysis explored historical oil production across the **Un
 [View Project →](ukcs-oil-production.md){ .md-button }
 </div>
 
+<div class="project-card" markdown>
+![](../assets/images/imd-2019.png)
+
+**[Spatial Patterns of Deprivation in England (IMD 2019)](imd-deprivation.md)**
+
+This project explores the spatial distribution of multiple deprivation across England using the Index of Multiple Deprivation (IMD) 2019, mapped at Lower Layer Super Output Area (LSOA) level and aggregated for exploration by Local Authority District.
+
+`Geospatial Data Engineering`, `Python`, `GeoPandas`, `Pandas`, `Spatial Joins`, `Streamlit`, `Folium`
+
+[View Project →](imd-deprivation.md){ .md-button }
+</div>
+
+
+
 </div>

@@ -1,8 +1,3 @@
----
-hide:
-  - toc
-  - navigation
----
 
 # 🛢️ Spatial Analysis of UK Continental Shelf Oil Production (1980–2010)
 

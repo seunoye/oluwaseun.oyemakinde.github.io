@@ -1,4 +1,10 @@
 <!--
+hide:
+  - toc
+  - navigation
+-->
+
+<!--
 CHECKLIST FOR THIS PAGE (copy this file for each new project):
 - [ ] Replace [YOUR PROJECT TITLE] with your project title
 - [ ] Replace the hero image with your own (add to docs/assets/images/)

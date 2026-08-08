@@ -30,7 +30,7 @@ CHECKLIST FOR THIS PAGE:
 
 </div>
 </div>
-[Download CV :material-download:](assets/oluwaseun-cv.pdf){ .md-button .md-button--primary }
+
 ---
 
 ## At a Glance
@@ -48,6 +48,10 @@ CHECKLIST FOR THIS PAGE:
     **MSc Geographic Information Systems**
 
     University of Aberdeen
+
+    **BSc Geology**
+
+    Olabisi Onabanjo University
 
 - :material-briefcase:{ .lg .middle } **Experience**
 
@@ -248,6 +252,7 @@ This portfolio showcases projects covering **GIS analysis, remote sensing, envir
 
 - :material-certificate:{ .lg .middle }
 
+    - Integrate Data with the FME Platform
     - Geospatial Data Engineering
     - Scrum with AI Certified
     - Scrum Fundamentals Certified
@@ -269,7 +274,6 @@ This portfolio demonstrates practical experience across a broad range of geospat
 - 🌍 GIS & Spatial Analysis
 - 🛰 Remote Sensing
 - 🗺 Cartography & Data Visualisation
-- 🌊 Hydrographic Data Processing
 - 🚁 UAV Mapping
 - 🐍 Python Automation
 - 🛢 Energy & Environmental Analysis
@@ -285,5 +289,5 @@ I'm always interested in discussing **GIS, remote sensing, hydrography, geospati
 
 [Download CV :material-download:](assets/oluwaseun-cv.pdf){ .md-button .md-button--primary }
 
-[:fontawesome-brands-github: GitHub](https://github.com/seunoye){ .md-button } [:fontawesome-brands-linkedin: Linkedln](https://linkedin.com/in/oluwaseunoyemakinde){ .md-button } :material-email: **Email** [seunoyemakinde@hotmail.com](mailto:seunoyemakinde@hotmail.com){ .md-button }
+[:fontawesome-brands-github: GitHub](https://github.com/seunoye){ .md-button } [:fontawesome-brands-linkedin: Linkedln](https://linkedin.com/in/oluwaseunoyemakinde){ .md-button } [:material-email: Email](mailto:seunoyemakinde@hotmail.com){ .md-button }
 

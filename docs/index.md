@@ -109,7 +109,7 @@ This portfolio showcases projects covering **GIS analysis, remote sensing, envir
 
     `Geospatial Data Engineering`, `Python`, `GeoPandas`, `Pandas`, `Spatial Joins`, `Streamlit`, `Folium`
 
-    [View Project →](imd-deprivation.md){ .md-button }
+    [View Project →](projects/imd-deprivation.md){ .md-button }
 
 </div>
 

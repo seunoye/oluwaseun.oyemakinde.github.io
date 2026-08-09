@@ -20,14 +20,6 @@ I am open to work opportunities, collaborations, and project discussions.
 Feel free to reach out through any of the channels below.
 
 ---
-The link syntax needs correction for the mailto URL and the GitHub/LinkedIn targets:
-
-# Contact
-
-I am open to work opportunities, collaborations, and project discussions.
-Feel free to reach out through any of the channels below.
-
----
 
 |                                            |                                                                                                      |
 | ------------------------------------------ | -----------------------------------------------------------------------------------------------------|

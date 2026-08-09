@@ -20,12 +20,20 @@ I am open to work opportunities, collaborations, and project discussions.
 Feel free to reach out through any of the channels below.
 
 ---
+The link syntax needs correction for the mailto URL and the GitHub/LinkedIn targets:
 
-|                                            |                                                                                                |
-| ------------------------------------------ | ---------------------------------------------------------------------------------------------- |
-| :material-email: **Email**                 | [seunoyemakinde@hotmail.com](mailto:[seunoyemakinde@hotmail.com])                                      |
-| :fontawesome-brands-github: **GitHub**     | [seunoye.github.io/oluwaseun.oyemakinde.github.io](https://github.com/[seunoye.github.io/oluwaseun.oyemakinde.github.io]) |
-| :fontawesome-brands-linkedin: **LinkedIn** | [linkedin.com/in/oluwaseunoyemakinde](https://LinkedIn.com/in/[oluwaseunoyemakinde])        |
+# Contact
+
+I am open to work opportunities, collaborations, and project discussions.
+Feel free to reach out through any of the channels below.
+
+---
+
+|                                            |                                                                                                      |
+| ------------------------------------------ | -----------------------------------------------------------------------------------------------------|
+| :material-email: **Email**                 | [seunoyemakinde@hotmail.com](mailto:seunoyemakinde@hotmail.com)                                      |
+| :fontawesome-brands-github: **GitHub**     | [seunoye/oluwaseun.oyemakinde.github.io](https://github.com/seunoye/oluwaseun.oyemakinde.github.io)  |
+| :fontawesome-brands-linkedin: **LinkedIn** | [linkedin.com/in/oluwaseunoyemakinde](https://linkedin.com/in/oluwaseunoyemakinde)                   |
 
 ---
 

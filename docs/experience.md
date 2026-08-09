@@ -121,6 +121,7 @@ Relevant coursework: GIS tools, techniques and geovisualisation; UAV mapping, mo
 
 ## Professional Development
 
+- Integrate Data with FME Platform
 - CAA A2 Certificate of Competency (A2CofC)
 - Scrum with AI Certified — 2026
 - Scrum Fundamentals Certified — 2025

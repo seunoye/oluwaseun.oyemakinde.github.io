@@ -103,13 +103,13 @@ This portfolio showcases projects covering **GIS analysis, remote sensing, envir
 
     [View Project →](projects/urban-heat-island.md){ .md-button }
 
-- ### 🛢️ UK Continental Shelf Oil Production Analysis
+- ### 🛢️ Spatial Patterns of Deprivation in England
 
-    Applied exploratory spatial analysis, SQL and geostatistics to investigate historical offshore oil production, geological basins and production trends across the UK Continental Shelf.
+    This project explores the spatial distribution of multiple deprivation across England using the Index of Multiple Deprivation (IMD) 2019, mapped at Lower Layer Super Output Area (LSOA) level and aggregated for exploration by Local Authority District.
 
-    `GIS` `Spatial Analysis` `SQL` `Cartography`
+    `Geospatial Data Engineering`, `Python`, `GeoPandas`, `Pandas`, `Spatial Joins`, `Streamlit`, `Folium`
 
-    [View Project →](projects/ukcs-oil-production.md){ .md-button }
+    [View Project →](imd-deprivation.md){ .md-button }
 
 </div>
 

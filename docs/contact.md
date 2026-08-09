@@ -23,9 +23,9 @@ Feel free to reach out through any of the channels below.
 
 |                                            |                                                                                                |
 | ------------------------------------------ | ---------------------------------------------------------------------------------------------- |
-| :material-email: **Email**                 | [seunoyemakinde@hotmail.com](mailto:[YOUR-EMAIL-ADDRESS])                                      |
-| :fontawesome-brands-github: **GitHub**     | [seunoye.github.io/oluwaseun.oyemakinde.github.io](https://github.com/[YOUR-GITHUB-USERNAME]) |
-| :fontawesome-brands-linkedin: **LinkedIn** | [linkedin.com/in/oluwaseunoyemakinde](https://LinkedIn.com/in/[YOUR-LINKEDIN-USERNAME])        |
+| :material-email: **Email**                 | [seunoyemakinde@hotmail.com](mailto:[seunoyemakinde@hotmail.com])                                      |
+| :fontawesome-brands-github: **GitHub**     | [seunoye.github.io/oluwaseun.oyemakinde.github.io](https://github.com/[seunoye.github.io/oluwaseun.oyemakinde.github.io]) |
+| :fontawesome-brands-linkedin: **LinkedIn** | [linkedin.com/in/oluwaseunoyemakinde](https://LinkedIn.com/in/[oluwaseunoyemakinde])        |
 
 ---
 

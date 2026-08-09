@@ -56,5 +56,4 @@ This project explores the spatial distribution of multiple deprivation across En
 </div>
 
 
-
 </div>
